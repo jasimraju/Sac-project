@@ -1,0 +1,247 @@
+@media(max-width: 1366px){
+}
+
+@media(max-width: 1200px){
+
+}
+
+@media(max-width: 1024px){
+	.events-box .event-head{
+		padding: 10px;
+	}
+	.events-box .event-button .btn {
+	    width: 48%;
+	    font-size: 13px;
+	    padding: 10px 10px;
+	    letter-spacing: 1px;
+	}
+	.equity-research-card{
+		min-height: 460px;
+	}
+	.latest-events .event-content h3{
+		font-size: 1em;
+	}
+	.latest-events .event-time h5{
+		font-size: 12px;
+	}
+
+	.left-sidebar .carousel-item .content h2{
+		font-size: 2em;
+	}
+
+	/*=========================
+	|Unlock investing
+	==========================*/
+	.unlock-investing .unlock-invest-box a .content h3{
+		font-size: 1em;
+	}
+	.unlock-investing .unlock-invest-box a .content{
+		margin-left: 10px;
+	}
+
+}
+
+
+
+@media(max-width: 991px){
+	.offcanvas-header{ display:block; }
+
+	.mobile-offcanvas{
+		visibility: hidden;
+		transform:translateX(-100%);
+	    border-radius:0; 
+		display:block;
+	    position: fixed;
+	    top: 0; left:0;
+	    height: 100%;
+	    z-index: 1200;
+	    width:80%;
+	    overflow-y: scroll;
+	    overflow-x: hidden;
+	    transition: visibility .3s ease-in-out, transform .3s ease-in-out;
+	    background-color: var(--white);
+	}
+
+	.mobile-offcanvas.show{
+		visibility: visible;
+    	transform: translateX(0);
+	}
+	.mobile-offcanvas .container, .mobile-offcanvas .container-fluid{
+		display: block;
+	}
+	.header-section .navbar-nav{
+		align-items: start;
+	}
+	/*=========================
+	|Slider Section Css
+	==========================*/
+	.slider-section{
+		min-height: 430px;
+	}
+	.slider-section .carousel-item .carousel-widget{
+		align-items: center;
+	}
+	.slider-section .carousel-img{
+		width: 30%;
+	}
+	.slider-section .carousel-content{
+		width: 65%;
+	}
+	.slider-section .carousel-content h1{
+		font-size: 2em;
+	}
+	.slider-section .carousel-content p{
+		font-size: 1em;
+	}
+
+	/*=========================
+	|Recent Investments Section Css
+	==========================*/
+	.recent-investments-card{
+		padding: 15px;
+	}
+
+	.equity-research-card{
+		padding: 20px;
+	}
+
+	/*=========================
+	|Footer Css
+	==========================*/
+	.footer-section .footer-widget .footer-title h4{
+		font-size: .8em;
+	}
+
+	/*=========================
+	| Section padding Css
+	==========================*/
+	.latest-event-section{
+		padding: 60px 0px;
+	}
+	.investments-section{
+		padding: 60px 0px;
+	}
+	.section-title h2{
+		font-size: 1.2em;
+	}
+	.section-title p{
+		font-size: .8em;
+	}
+}
+
+
+
+@media(max-width: 767px){
+
+	.recent-investments-card{
+		margin-bottom: 20px;
+	}
+	.equity-research-card{
+		margin-bottom: 20px;
+	}
+	/*=========================
+	|Slider Section Css
+	==========================*/
+	.slider-section .carousel-item .carousel-widget{
+		display: block;
+	}
+	.banner-apps{
+		display: flex;
+	}
+	.banner-apps a{width: 40%;}
+	.slider-section .carousel-img{
+		width: 100%;
+		margin: 0px auto;
+		padding-bottom: 20px;
+	}
+	.slider-section .carousel-content{
+		width: 100% !important;
+	}
+
+	/*=========================
+	|Left Section Css
+	==========================*/
+
+	.left-sidebar{
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+
+	.right-sidebar{
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+	.or-login{overflow: hidden;}
+	.right-sidebar-login-card{
+		width: 100%;
+	}
+
+	/*=========================
+	|Unlock investing
+	==========================*/
+	.unlock-investing .unlock-invest-box a .content h3{
+		font-size: 1em;
+	}
+	.quick-link-sac ul li{
+		margin-right: 25px;
+	}
+
+	.quick-link-sac ul li h5{
+		font-size: 1em;
+	}
+	.manage-protfolio-intro .manage-right{
+		padding: 30px;
+	}
+}
+
+@media(max-width: 700px){
+}
+
+@media(max-width: 414px){
+	/*=========================
+	|Left Section Css
+	==========================*/
+	.modal-dialog-centered{
+		align-items: end;
+		bottom: -16px;
+	}
+	.modal-dialog{margin: 0px;}
+	.modal-content{
+		border-radius: 15px 15px 0px 0px;
+	}
+	/*=========================
+	|Slick Section Css
+	==========================*/
+
+	.slick-prev{
+		left: 20px !important;
+		z-index: 999;
+	}
+	.slick-next{
+		right: 20px !important;
+		z-index: 999;
+	}
+
+	/*=========================
+	|Left Section Css
+	==========================*/
+
+	.left-sidebar{
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.right-sidebar{
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.user-role-box.right .role-description{
+		width: 280px;
+		right: 11%;
+	}
+	.user-role-box.left .role-description{
+		width: 280px;
+		left: 11%;
+	}
+}
